@@ -1,0 +1,23 @@
+{
+  "name": "screencutjs",
+  "version": "0.0.1",
+  "description": "screentcut for windows",
+  "main": "screencut.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/neeker/screencutjs"
+  },
+  "keywords": [
+    "screencut"
+  ],
+  "author": "neeker <neeker@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/neeker/screencutjs/issues"
+  },
+  "homepage": "https://github.com/neeker/screencutjs",
+  "dependencies": {
+  },
+  "devDependencies": {
+  }
+}
