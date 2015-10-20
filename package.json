@@ -1,7 +1,7 @@
 {
   "name": "screencutjs",
   "version": "0.0.1",
-  "description": "screentcut for windows",
+  "description": "screencut for windows",
   "main": "screencut.js",
   "repository": {
     "type": "git",
