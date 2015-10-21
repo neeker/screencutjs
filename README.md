@@ -18,9 +18,12 @@ screen cut for nodejs
 * clipboard 如果为true，表示剪切板里有bitmap格式的图片。
 
 ## 调用示例
+先安装：
+npm install screencutjs
+在node中执行：
 ```
-require('./screencut.js').start(
-  {type:'clipboard'}, 
+require('screencutjs').start(
+  {type:'file/png'}, 
   function(result){
   console.log('screencut result: ' + JSON.stringify(result));
 });
@@ -29,5 +32,6 @@ require('./screencut.js').start(
 更新说明
 -----------
 2015/10/20 为截屏模块添加Windows实现。
+2015/10/21 修改低版本的node获取arch不正确而导致找不到截取器的问题。
 
 

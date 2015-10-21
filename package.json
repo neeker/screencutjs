@@ -1,6 +1,6 @@
 {
   "name": "screencutjs",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "screencut for windows",
   "main": "screencut.js",
   "repository": {
@@ -8,7 +8,7 @@
     "url": "https://github.com/neeker/screencutjs"
   },
   "keywords": [
-    "screencut"
+    "screen", "capture", "desktop", "windows"
   ],
   "author": "neeker <neeker@gmail.com>",
   "license": "MIT",

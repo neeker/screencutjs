@@ -1,3 +1,3 @@
-require('./screencut.js').start({type:'clipboard'}, function(result){
+require('./screencut.js').start({type:'file/png'}, function(result){
   console.log('screencut result: ' + JSON.stringify(result));
 });

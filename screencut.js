@@ -25,7 +25,6 @@ module.exports = function() {
       var screencut_executor_path = path.join(
         path.dirname(__filename),
         os.platform(),
-        os.arch(),
         'screencut' + (os.platform() === 'win32' ? '.exe' : '')
       );
       fs.exists(screencut_executor_path, function(exists) {
@@ -33,7 +32,7 @@ module.exports = function() {
           var screencut_result = "";
           var screencut_proc = proc.spawn(
             screencut_executor_path,
-            [options.filetype],
+            [options.type],
             {
               stdio: ['pipe', null, null],
               encoding: 'utf8'
